@@ -1,16 +1,16 @@
 # ☕ Java Programming
 
-An organized repository containing Java programs, course exercises, and practical implementations covering core object-oriented programming (OOP), the Collections Framework, custom exception handling, and database connectivity.
+A structured collection of Java programs, course exercises, and practical implementations. This repository demonstrates core Object-Oriented Programming (OOP) concepts, the Java Collections Framework, custom exception handling, and database connectivity.
 
 ---
 
-## 📌 Topics & Highlights
+## 📌 Topics & Key Highlights
 
-* **Core Syntax & Control Flow:** Fundamentals of Java programming, methods, loops, and array manipulations (`foreachdemo.java`, `matrixdivby5.java`).
-* **Object-Oriented Design:** Real-world case studies demonstrating OOP principles (`BankingSystem.java`, `AgeCheck.java`, `CaseStudyMain.java`).
-* **Collections Framework:** Dynamic data structures featuring sorting and searching implementations (`ArrayListSortNSearch.java`, `CollectionDemo.java`).
-* **Exception Handling:** Demonstration of built-in try-catch flows (`CheckedDemo.java`, `ExceptionDemo.java`, `ThrowDemo.java`) alongside custom user-defined exceptions (`InvalidAgeException.java`, `NegativeAgeException.java`, `StringException.java`).
-* **Database Connectivity (JDBC):** Data persistence and DML operation execution (`JDBCDemo.java`, `DMLDemo.java`).
+* **Core Syntax & Control Flow:** Java fundamentals, including methods, loops, and array manipulations (`foreachdemo.java`, `matrixdivby5.java`).
+* **Object-Oriented Design:** Real-world case studies showcasing core OOP principles (`BankingSystem.java`, `AgeCheck.java`, `CaseStudyMain.java`).
+* **Collections Framework:** Dynamic data structures featuring sorting and searching algorithms (`ArrayListSortNSearch.java`, `CollectionDemo.java`).
+* **Exception Handling:** Implementations of built-in `try-catch` blocks (`CheckedDemo.java`, `ExceptionDemo.java`, `ThrowDemo.java`) alongside user-defined custom exceptions (`InvalidAgeException.java`, `NegativeAgeException.java`, `StringException.java`).
+* **Database Connectivity (JDBC):** Data persistence and execution of DML operations using JDBC (`JDBCDemo.java`, `DMLDemo.java`).
 
 ---
 
@@ -19,19 +19,19 @@ An organized repository containing Java programs, course exercises, and practica
 ```text
 .
 ├── AgeCheck.java             # Age validation logic
-├── ArrayListSortNSearch.java # Sorting and searching algorithms using ArrayList
+├── ArrayListSortNSearch.java # Sorting and searching implementations using ArrayList
 ├── BankingSystem.java        # Basic banking operations implementation
-├── CaseStudyMain.java        # Comprehensive case study execution driver
+├── CaseStudyMain.java        # Main driver for comprehensive case studies
 ├── CheckedDemo.java          # Working with checked exceptions
-├── CollectionDemo.java       # Demonstrating Java Collections Framework capabilities
-├── DMLDemo.java              # Database Manipulation Language operations
+├── CollectionDemo.java       # Overview of Java Collections Framework features
+├── DMLDemo.java              # Database Manipulation Language (DML) operations
 ├── ExceptionDemo.java        # Basic exception handling examples
 ├── InvalidAgeException.java  # Custom exception for invalid age inputs
-├── JDBCDemo.java             # Database connectivity setup & queries
-├── MainAge.java              # Main driver for age checks
-├── NegativeAgeException.java # Custom exception for negative numbers
+├── JDBCDemo.java             # Database connectivity setup and query execution
+├── MainAge.java              # Entry point driver for age validation routines
+├── NegativeAgeException.java # Custom exception for handling negative numerical inputs
 ├── README.md                 # Project documentation
-├── StringException.java      # Handling custom string exceptions
-├── ThrowDemo.java            # Demonstrating 'throw' and 'throws' keywords
+├── StringException.java      # Custom exception for string handling errors
+├── ThrowDemo.java            # Examples using 'throw' and 'throws' keywords
 ├── foreachdemo.java          # Enhanced for-loop demonstration
 └── matrixdivby5.java         # Matrix operations and divisibility checks
